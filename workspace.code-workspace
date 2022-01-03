@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../hello-world"
+		},
+		{
+			"path": "../d1_filework"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../d2_iterators"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
