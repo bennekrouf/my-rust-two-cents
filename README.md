@@ -197,3 +197,10 @@ pub fn hello_world() {
 - Custom #[derive] macros: used on struct and enum
 - Attribute-like: define custom attributes usable on any item
 - Function-like: look like function calls but operate on tokens speficied as argument
+
+
+## wasm
+
+```shell
+    cargo generate --git https://github.com/rustwasm/wasm-pack-template 
+```
