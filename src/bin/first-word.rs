@@ -2,7 +2,9 @@ pub fn main() {
     let a: String = String::from("hello world!");
     let c: &str = first_word(&a);
     println!("{}", c);
-
+    let mut _chary: Vec<char> = c.chars().collect();
+    _chary.sort();
+    println!("{:?}", _chary);
 }
 
 pub fn first_word(b: &str) -> &str {
